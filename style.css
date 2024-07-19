@@ -1,0 +1,72 @@
+/* ---- RESET ---- */
+
+html {
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: "Rubik", sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------------------------------------ */
+/* ----------- VARIABLES + IMPORTS ---------- */
+/* ------------------------------------------ */
+
+:root {
+  font-size: 62.5%;
+
+  --text_color_paragraph: hsl(270, 7%, 64%);
+  --text_color_main_heading: hsl(271, 36%, 24%);
+  --text_color_placeholder_text: hsl(206, 6%, 79%);
+  --text_color_chat_right: hsl(271, 15%, 43%);
+  --text_color_chat_left: hsl(276, 55%, 52%);
+  --text_color_subheading: hsl(276, 100%, 81%);
+
+  --white: hsl(0, 0%, 100%);
+  --background_color: hsl(270, 20%, 96%);
+  --background_btn_submit: hsl(271, 36%, 24%);
+  --btn_radio_outline: hsl(289, 100%, 72%);
+
+  /* ------------------------------------------ */
+  /* --------------- Gradients ---------------- */
+  /* ------------------------------------------ */
+
+  --light_magenta: hsl(293, 100%, 63%);
+  --light_violet: hsl(264, 100%, 61%);
+}
+
+/* ------------------------------------------ */
+/* --------------- Globale Page ------------- */
+/* ------------------------------------------ */
